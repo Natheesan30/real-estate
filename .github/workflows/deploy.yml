@@ -7,7 +7,7 @@ on:
 
 jobs: 
     build-deploy:
-        run-on: ubuntu-latest
+        runs-on: ubuntu-latest
 
         steps:
           # Checkout  the repository
